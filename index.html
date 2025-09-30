@@ -2,53 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | NFT preview card component</title>
-
 </head>
 <body>
   <main>
     <section>
-      <div class="card-container">
-        <div class="card-content">
-          <img src="" alt="" class="card-image">
-          <h1 class="nft-name">Equilibrium #3429</h1>
-          <p class="nft-description">Our Equilibrium collection promotes balance and calm.</p>
-          <div class="nft-details">
-            <div class="nft-price">
-              <img src="" alt="" class="price-icon">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-image-wrapper">
+            <img src="./images/image-equilibrium.jpg" alt="Equilibrium NFT" class="cover-image">
+          </div>
+          <h1 class="card-title">Equilibrium #3429</h1>
+          <p class="card-text">Our Equilibrium collection promotes balance and calm</p>
+        </div>
+        <div class="card-body">
+          <div class="card-details">
+            <div class="price">
+              <img src="./images/icon-ethereum.svg" alt="price icon" class="price-icon">
               <span class="price-value">0.041 ETH</span>
             </div>
-            <div class="nft-time">
-              <img src="" alt="" class="time-icon">
+            <div class="time">
+              <img src="./images/icon-clock.svg" alt="time icon" class="time-icon">
               <span class="time-value">3 days left</span>
             </div>
-            <div class="nft-creator">
-              <img src="" alt="" class="creator-avatar">
-              <span class="creator-label">Creation of </span>
-   			  <span class="creator-name">Jules Wyvern</span>
-            </div>
           </div>
+          <hr class="divider">
+        </div>
+        <div class="card-footer">
+          <img src="./images/image-avatar.png" alt="Jules Wyvern" class="creator-avatar">
+          <p class="creator-info">
+            <span class="creator-label">Creation of</span>
+            <a href="#" class="creator-name">Jules Wyvern</a>
+          </p>
         </div>
       </div>
     </section>
   </main>
 
-  
-
-  
-
-  
-  
-  
-  
-
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Hazelle Jane A.</a>.
   </footer>
 </body>
 </html>
