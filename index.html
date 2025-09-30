@@ -5,46 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
   <main>
     <section>
       <div class="card">
+        
         <div class="card-header">
-          <div class="card-image-wrapper">
+          <div class="image-container">
             <img src="./images/image-equilibrium.jpg" alt="Equilibrium NFT" class="cover-image">
+            <div class="overlay">
+              <span class="view-icon">
+                <img src="./images/icon-view.svg" alt="view icon">
+              </span>
+            </div>
           </div>
           <h1 class="card-title">Equilibrium #3429</h1>
           <p class="card-text">Our Equilibrium collection promotes balance and calm</p>
         </div>
+        
         <div class="card-body">
           <div class="card-details">
             <div class="price">
-              <img src="./images/icon-ethereum.svg" alt="price icon" class="price-icon">
+              <img src="./images/icon-ethereum.svg" alt="price icon" class="price-icon" width="10" height="auto">
               <span class="price-value">0.041 ETH</span>
             </div>
             <div class="time">
-              <img src="./images/icon-clock.svg" alt="time icon" class="time-icon">
+              <img src="./images/icon-clock.svg" alt="time icon" class="time-icon" width="16" height="auto">
               <span class="time-value">3 days left</span>
             </div>
           </div>
           <hr class="divider">
         </div>
+      
         <div class="card-footer">
-          <img src="./images/image-avatar.png" alt="Jules Wyvern" class="creator-avatar">
-          <p class="creator-info">
-            <span class="creator-label">Creation of</span>
-            <a href="#" class="creator-name">Jules Wyvern</a>
-          </p>
+          <img src="./images/image-avatar.png" alt="Jules Wyvern" class="creator-avatar" width="28" height="28">
+          <span class="creator-info">
+            <span class="creator-label">Creation of </span>
+            <span class="creator-name">
+              <a href="#">Jules Wyvern</a>
+            </span>
+          </span>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by 
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Hazelle Jane A.</a>.
   </footer>
 </body>
